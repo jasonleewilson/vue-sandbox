@@ -9,7 +9,18 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
-  }
+  },
+  //   mounted() {
+  //     window.onload = function() {
+  //     if (window.jQuery) {  
+  //         // jQuery is loaded  
+  //         alert("Yeah!");
+  //     } else {
+  //         // jQuery is not loaded
+  //         alert("Doesn't Work");
+  //     }
+  //   }
+  // }
 }
 </script>
 
